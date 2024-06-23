@@ -97,10 +97,10 @@ const technologies = [
         name: "AWS",
         icon: aws,
     },
-    {
+    /*{
         name: "Kubernetes",
         icon: kubernetes,
-    },
+    },*/
     {
         name: "git",
         icon: git,
