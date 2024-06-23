@@ -1,33 +1,65 @@
-# Portfolio 👨🏻‍💻
-# Portfolio created in React JS in Web and 3D development course
-<img width="1440" alt="Screenshot 2023-03-20 at 8 53 28 PM" src="https://user-images.githubusercontent.com/99376449/226490006-360d5d19-76fe-4f14-b4d5-f06344de4078.png">
+# Portfolio Website
 
-ThreeJS - a powerful 3D graphics library for rendering and animating the 3D model
+This repository contains the source code for a portfolio website built using React, React Three Fiber, Tailwind CSS, and
+3D models. The site is deployed on GitHub Pages using GitHub Actions.
 
-React Three Fiber - a popular library for creating 3D graphics with ThreeJS in React
+## Table of Contents
 
-TailwindCSS - a popular utility-first CSS styling framework
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup](#setup)
+- [Running the Project](#running-the-project)
+- [Deployment](#deployment)
 
-Framer Motion - the most popular library used to bring your React website to life with animations You'll also learn how to:
+## Introduction
 
-Load, create and customize stunning 3D models and geometries with various lights, as well as understand the 3D world with a camera and positioning of an object in space.
+This project showcases a personal portfolio website featuring interactive 3D elements created with React Three Fiber.
+The design is styled using Tailwind CSS for a modern and responsive look.
 
-Make your code reusable and scalable using Higher Order Components (HOCs) and other industry-standard best practices
+## Features
 
-Implement sending emails through a form on the website
+- Responsive design using Tailwind CSS
+- Interactive 3D models with React Three Fiber
+- Smooth animations and transitions
+- Deployed on GitHub Pages
 
-Ensure responsiveness across all devices and improve your site's performance using Suspense and Preload.
-## 💻 Clonando projeto
+## Technologies Used
+
+- [React](https://reactjs.org/)
+- [React Three Fiber](https://github.com/pmndrs/react-three-fiber)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Three.js](https://threejs.org/)
+
+## Setup
+
+To set up the project locally, follow these steps:
+
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/GokulaKrishnanRGK/GokulaKrishnanRGK.github.io.git
+    cd <cloned-repo-dir>
+    ```
+
+2. **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+## Running the Project
+
+To run the project locally, use the following command:
 
 ```bash
-$ git clone git@github.com:jooaogbriel/portfolio.git && cd portfolio
+npm run dev
 ```
 
-```bash
-# Instalando dependências
-$ npm i
+This will start a local development server. You can view the project by navigating to http://localhost:3000 in your web
+browser.
 
-# Rodando o projeto
-$ npm run dev
+## Deployment
 
-```
+The website is deployed on GitHub Pages using GitHub Actions. The deployment workflow is defined in the
+.github/workflows/node.js.yml file. After the workflow is done, it will trigger GitHub's built-in deploy workflow to
+publish the site on GitHub Pages.
+
